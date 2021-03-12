@@ -1,0 +1,15 @@
+.league{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+	background: #9487eb;
+	padding-top: 20px;
+    }
+h1{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	.league {
+		grid-template-columns: auto;
+	}
+}
